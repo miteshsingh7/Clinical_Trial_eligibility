@@ -1,0 +1,1088 @@
+[
+  {
+    "patient_id": "SYN-PT-1001",
+    "name": "Elena Rostova (Synthetic)",
+    "age": 62,
+    "sex": "Female",
+    "race": "White",
+    "conditions": [
+      {
+        "code": "E11.9",
+        "system": "ICD-10",
+        "display": "Type 2 diabetes mellitus without complications",
+        "onset": "2019-04-12"
+      },
+      {
+        "code": "N18.3",
+        "system": "ICD-10",
+        "display": "Chronic kidney disease, stage 3 (moderate)",
+        "onset": "2023-08-19"
+      },
+      {
+        "code": "I10",
+        "system": "ICD-10",
+        "display": "Essential (primary) hypertension",
+        "onset": "2018-02-01"
+      }
+    ],
+    "labs": {
+      "HbA1c": {
+        "value": 8.2,
+        "unit": "%",
+        "loinc": "4548-4",
+        "date": "2026-10-14",
+        "ref_id": "EHR:labs.4548-4"
+      },
+      "eGFR": {
+        "value": 46.0,
+        "unit": "mL/min/1.73m2",
+        "loinc": "33914-3",
+        "date": "2026-10-14",
+        "ref_id": "EHR:labs.33914-3"
+      },
+      "ALT": {
+        "value": 28.0,
+        "unit": "U/L",
+        "loinc": "1742-6",
+        "date": "2026-10-14",
+        "ref_id": "EHR:labs.1742-6"
+      },
+      "Creatinine": {
+        "value": 1.3,
+        "unit": "mg/dL",
+        "loinc": "2160-0",
+        "date": "2026-10-14",
+        "ref_id": "EHR:labs.2160-0"
+      },
+      "Potassium": {
+        "value": 4.4,
+        "unit": "mmol/L",
+        "loinc": "2823-3",
+        "date": "2026-10-14",
+        "ref_id": "EHR:labs.2823-3"
+      },
+      "Hemoglobin": {
+        "value": 12.6,
+        "unit": "g/dL",
+        "loinc": "718-7",
+        "date": "2026-10-14",
+        "ref_id": "EHR:labs.718-7"
+      },
+      "Platelets": {
+        "value": 230.0,
+        "unit": "10^3/uL",
+        "loinc": "777-3",
+        "date": "2026-10-14",
+        "ref_id": "EHR:labs.777-3"
+      }
+    },
+    "observations": {
+      "BMI": {
+        "value": 31.4,
+        "unit": "kg/m2",
+        "ref_id": "EHR:obs.BMI"
+      },
+      "SBP": {
+        "value": 132,
+        "unit": "mmHg",
+        "ref_id": "EHR:obs.SBP"
+      },
+      "ECOG": {
+        "value": 0,
+        "unit": "score",
+        "ref_id": "EHR:obs.ECOG"
+      },
+      "LVEF": {
+        "value": 60,
+        "unit": "%",
+        "ref_id": "EHR:obs.LVEF"
+      }
+    },
+    "medications": [
+      {
+        "name": "Metformin 1000mg BID",
+        "rxnorm": "861004",
+        "weeks_duration": 104,
+        "status": "active",
+        "ref_id": "EHR:meds.861004"
+      },
+      {
+        "name": "Lisinopril 20mg QD",
+        "rxnorm": "314076",
+        "weeks_duration": 78,
+        "status": "active",
+        "ref_id": "EHR:meds.314076"
+      }
+    ],
+    "clinical_notes": "62yo female with well-documented T2DM on stable Metformin for 2 years and Stage 3 CKD. No history of diabetic ketoacidosis. No history of pancreatitis or thyroid carcinoma. Prior basal cell skin lesion excised in 2024; unclear if oncology clearance needed for systemic malignancy exclusion.",
+    "note_ref_id": "EHR:notes.N-901"
+  },
+  {
+    "patient_id": "SYN-PT-1002",
+    "name": "Marcus Vance (Synthetic)",
+    "age": 67,
+    "sex": "Male",
+    "race": "Black or African American",
+    "conditions": [
+      {
+        "code": "C34.90",
+        "system": "ICD-10",
+        "display": "Malignant neoplasm of unspecified part of bronchus or lung (Stage IIIB NSCLC)",
+        "onset": "2026-06-10"
+      },
+      {
+        "code": "I10",
+        "system": "ICD-10",
+        "display": "Essential hypertension",
+        "onset": "2020-01-15"
+      }
+    ],
+    "labs": {
+      "ANC": {
+        "value": 2.4,
+        "unit": "10^3/uL",
+        "loinc": "751-8",
+        "date": "2026-10-20",
+        "ref_id": "EHR:labs.751-8"
+      },
+      "Creatinine": {
+        "value": 1.1,
+        "unit": "mg/dL",
+        "loinc": "2160-0",
+        "date": "2026-10-20",
+        "ref_id": "EHR:labs.2160-0"
+      },
+      "Hemoglobin": {
+        "value": 11.8,
+        "unit": "g/dL",
+        "loinc": "718-7",
+        "date": "2026-10-20",
+        "ref_id": "EHR:labs.718-7"
+      },
+      "ALT": {
+        "value": 31.0,
+        "unit": "U/L",
+        "loinc": "1742-6",
+        "date": "2026-10-20",
+        "ref_id": "EHR:labs.1742-6"
+      },
+      "Platelets": {
+        "value": 210.0,
+        "unit": "10^3/uL",
+        "loinc": "777-3",
+        "date": "2026-10-20",
+        "ref_id": "EHR:labs.777-3"
+      }
+    },
+    "observations": {
+      "ECOG": {
+        "value": 1,
+        "unit": "score",
+        "ref_id": "EHR:obs.ECOG"
+      },
+      "BMI": {
+        "value": 24.8,
+        "unit": "kg/m2",
+        "ref_id": "EHR:obs.BMI"
+      },
+      "SBP": {
+        "value": 128,
+        "unit": "mmHg",
+        "ref_id": "EHR:obs.SBP"
+      }
+    },
+    "medications": [
+      {
+        "name": "Amlodipine 5mg QD",
+        "rxnorm": "197361",
+        "weeks_duration": 120,
+        "status": "active",
+        "ref_id": "EHR:meds.197361"
+      }
+    ],
+    "clinical_notes": "67yo male newly diagnosed with Stage IIIB squamous NSCLC. Treatment-naive; no prior anti-PD-1 or anti-PD-L1 immunotherapy. Brain MRI from Oct 2026 shows a 3mm equivocal punctate lesion; radiology recommends repeat scan to rule out early CNS metastases.",
+    "note_ref_id": "EHR:notes.N-902"
+  },
+  {
+    "patient_id": "SYN-PT-1003",
+    "name": "Arthur Pendelton (Synthetic)",
+    "age": 73,
+    "sex": "Male",
+    "race": "White",
+    "conditions": [
+      {
+        "code": "I50.30",
+        "system": "ICD-10",
+        "display": "Heart failure with preserved ejection fraction (HFpEF)",
+        "onset": "2024-03-11"
+      },
+      {
+        "code": "I48.91",
+        "system": "ICD-10",
+        "display": "Unspecified atrial fibrillation",
+        "onset": "2023-11-05"
+      }
+    ],
+    "labs": {
+      "NT-proBNP": {
+        "value": 640.0,
+        "unit": "pg/mL",
+        "loinc": "33762-6",
+        "date": "2026-10-18",
+        "ref_id": "EHR:labs.33762-6"
+      },
+      "Potassium": {
+        "value": 4.7,
+        "unit": "mmol/L",
+        "loinc": "2823-3",
+        "date": "2026-10-18",
+        "ref_id": "EHR:labs.2823-3"
+      },
+      "eGFR": {
+        "value": 52.0,
+        "unit": "mL/min/1.73m2",
+        "loinc": "33914-3",
+        "date": "2026-10-18",
+        "ref_id": "EHR:labs.33914-3"
+      },
+      "Hemoglobin": {
+        "value": 13.1,
+        "unit": "g/dL",
+        "loinc": "718-7",
+        "date": "2026-10-18",
+        "ref_id": "EHR:labs.718-7"
+      },
+      "Platelets": {
+        "value": 195.0,
+        "unit": "10^3/uL",
+        "loinc": "777-3",
+        "date": "2026-10-18",
+        "ref_id": "EHR:labs.777-3"
+      }
+    },
+    "observations": {
+      "LVEF": {
+        "value": 54,
+        "unit": "%",
+        "ref_id": "EHR:obs.LVEF"
+      },
+      "SBP": {
+        "value": 124,
+        "unit": "mmHg",
+        "ref_id": "EHR:obs.SBP"
+      },
+      "BMI": {
+        "value": 28.9,
+        "unit": "kg/m2",
+        "ref_id": "EHR:obs.BMI"
+      }
+    },
+    "medications": [
+      {
+        "name": "Furosemide 40mg QD",
+        "rxnorm": "310429",
+        "weeks_duration": 36,
+        "status": "active",
+        "ref_id": "EHR:meds.310429"
+      },
+      {
+        "name": "Metoprolol Succinate 50mg QD",
+        "rxnorm": "866427",
+        "weeks_duration": 52,
+        "status": "active",
+        "ref_id": "EHR:meds.866427"
+      }
+    ],
+    "clinical_notes": "73yo male with symptomatic HFpEF (LVEF 54%) and paroxysmal AFib. Stable on Furosemide 40mg daily for 9 months. Native heart valves intact (no mechanical valve). No history of angioedema.",
+    "note_ref_id": "EHR:notes.N-903"
+  },
+  {
+    "patient_id": "SYN-PT-1004",
+    "name": "Priya Nair (Synthetic)",
+    "age": 49,
+    "sex": "Female",
+    "race": "Asian",
+    "conditions": [
+      {
+        "code": "K75.81",
+        "system": "ICD-10",
+        "display": "Nonalcoholic steatohepatitis (NASH / MASH)",
+        "onset": "2025-02-14"
+      },
+      {
+        "code": "E11.9",
+        "system": "ICD-10",
+        "display": "Type 2 diabetes mellitus without complications",
+        "onset": "2022-07-09"
+      }
+    ],
+    "labs": {
+      "ALT": {
+        "value": 74.0,
+        "unit": "U/L",
+        "loinc": "1742-6",
+        "date": "2026-10-12",
+        "ref_id": "EHR:labs.1742-6"
+      },
+      "Platelets": {
+        "value": 188.0,
+        "unit": "10^3/uL",
+        "loinc": "777-3",
+        "date": "2026-10-12",
+        "ref_id": "EHR:labs.777-3"
+      },
+      "HbA1c": {
+        "value": 7.6,
+        "unit": "%",
+        "loinc": "4548-4",
+        "date": "2026-10-12",
+        "ref_id": "EHR:labs.4548-4"
+      },
+      "eGFR": {
+        "value": 78.0,
+        "unit": "mL/min/1.73m2",
+        "loinc": "33914-3",
+        "date": "2026-10-12",
+        "ref_id": "EHR:labs.33914-3"
+      }
+    },
+    "observations": {
+      "BMI": {
+        "value": 33.2,
+        "unit": "kg/m2",
+        "ref_id": "EHR:obs.BMI"
+      },
+      "SBP": {
+        "value": 122,
+        "unit": "mmHg",
+        "ref_id": "EHR:obs.SBP"
+      }
+    },
+    "medications": [
+      {
+        "name": "Metformin 500mg BID",
+        "rxnorm": "860975",
+        "weeks_duration": 64,
+        "status": "active",
+        "ref_id": "EHR:meds.860975"
+      }
+    ],
+    "clinical_notes": "49yo female with biopsy-confirmed non-cirrhotic MASH F2 fibrosis. BMI 33.2, ALT elevated at 74 U/L. Never treated with Semaglutide, Liraglutide, or other GLP-1 receptor agonists. No active malignancy.",
+    "note_ref_id": "EHR:notes.N-904"
+  },
+  {
+    "patient_id": "SYN-PT-1005",
+    "name": "Walter Bishop (Synthetic)",
+    "age": 76,
+    "sex": "Male",
+    "race": "White",
+    "conditions": [
+      {
+        "code": "G31.84",
+        "system": "ICD-10",
+        "display": "Mild cognitive impairment of uncertain or unknown etiology",
+        "onset": "2025-09-01"
+      }
+    ],
+    "labs": {
+      "eGFR": {
+        "value": 68.0,
+        "unit": "mL/min/1.73m2",
+        "loinc": "33914-3",
+        "date": "2026-10-05",
+        "ref_id": "EHR:labs.33914-3"
+      },
+      "Hemoglobin": {
+        "value": 13.8,
+        "unit": "g/dL",
+        "loinc": "718-7",
+        "date": "2026-10-05",
+        "ref_id": "EHR:labs.718-7"
+      }
+    },
+    "observations": {
+      "MMSE": {
+        "value": 25,
+        "unit": "score",
+        "ref_id": "EHR:obs.MMSE"
+      },
+      "SBP": {
+        "value": 130,
+        "unit": "mmHg",
+        "ref_id": "EHR:obs.SBP"
+      },
+      "BMI": {
+        "value": 25.1,
+        "unit": "kg/m2",
+        "ref_id": "EHR:obs.BMI"
+      }
+    },
+    "medications": [
+      {
+        "name": "Donepezil 10mg QD",
+        "rxnorm": "197622",
+        "weeks_duration": 24,
+        "status": "active",
+        "ref_id": "EHR:meds.197622"
+      }
+    ],
+    "clinical_notes": "76yo male with progressive amnestic MCI (MMSE 25/30) and positive amyloid PET. Stable on Donepezil for 6 months. Not on anticoagulants. Has left hip titanium arthroplasty from 2015; needs MRI safety verification for 3T brain MRI protocol.",
+    "note_ref_id": "EHR:notes.N-905"
+  },
+  {
+    "patient_id": "SYN-PT-1006",
+    "name": "Sofia Mendoza (Synthetic)",
+    "age": 54,
+    "sex": "Female",
+    "race": "Hispanic",
+    "conditions": [
+      {
+        "code": "C50.919",
+        "system": "ICD-10",
+        "display": "Malignant neoplasm of unspecified site of unspecified female breast (HER2-Low MBC)",
+        "onset": "2024-11-20"
+      }
+    ],
+    "labs": {
+      "Hemoglobin": {
+        "value": 10.4,
+        "unit": "g/dL",
+        "loinc": "718-7",
+        "date": "2026-10-21",
+        "ref_id": "EHR:labs.718-7"
+      },
+      "Bilirubin": {
+        "value": 0.8,
+        "unit": "mg/dL",
+        "loinc": "1975-2",
+        "date": "2026-10-21",
+        "ref_id": "EHR:labs.1975-2"
+      },
+      "ANC": {
+        "value": 1.9,
+        "unit": "10^3/uL",
+        "loinc": "751-8",
+        "date": "2026-10-21",
+        "ref_id": "EHR:labs.751-8"
+      },
+      "ALT": {
+        "value": 26.0,
+        "unit": "U/L",
+        "loinc": "1742-6",
+        "date": "2026-10-21",
+        "ref_id": "EHR:labs.1742-6"
+      }
+    },
+    "observations": {
+      "ECOG": {
+        "value": 0,
+        "unit": "score",
+        "ref_id": "EHR:obs.ECOG"
+      },
+      "LVEF": {
+        "value": 58,
+        "unit": "%",
+        "ref_id": "EHR:obs.LVEF"
+      },
+      "BMI": {
+        "value": 26.3,
+        "unit": "kg/m2",
+        "ref_id": "EHR:obs.BMI"
+      }
+    },
+    "medications": [
+      {
+        "name": "Letrozole 2.5mg QD",
+        "rxnorm": "200345",
+        "weeks_duration": 48,
+        "status": "completed",
+        "ref_id": "EHR:meds.200345"
+      }
+    ],
+    "clinical_notes": "54yo female with HER2-low (IHC 1+) metastatic breast cancer. ECOG 0, LVEF 58%. No history of interstitial lung disease (ILD) or pneumonitis on baseline chest CT.",
+    "note_ref_id": "EHR:notes.N-906"
+  },
+  {
+    "patient_id": "SYN-PT-1007",
+    "name": "Hannah Abbott (Synthetic)",
+    "age": 44,
+    "sex": "Female",
+    "race": "White",
+    "conditions": [
+      {
+        "code": "M06.9",
+        "system": "ICD-10",
+        "display": "Rheumatoid arthritis, unspecified",
+        "onset": "2023-05-15"
+      }
+    ],
+    "labs": {
+      "CRP": {
+        "value": 14.2,
+        "unit": "mg/L",
+        "loinc": "1988-5",
+        "date": "2026-10-19",
+        "ref_id": "EHR:labs.1988-5"
+      },
+      "ANC": {
+        "value": 3.1,
+        "unit": "10^3/uL",
+        "loinc": "751-8",
+        "date": "2026-10-19",
+        "ref_id": "EHR:labs.751-8"
+      },
+      "Hemoglobin": {
+        "value": 12.1,
+        "unit": "g/dL",
+        "loinc": "718-7",
+        "date": "2026-10-19",
+        "ref_id": "EHR:labs.718-7"
+      },
+      "ALT": {
+        "value": 22.0,
+        "unit": "U/L",
+        "loinc": "1742-6",
+        "date": "2026-10-19",
+        "ref_id": "EHR:labs.1742-6"
+      }
+    },
+    "observations": {
+      "BMI": {
+        "value": 23.9,
+        "unit": "kg/m2",
+        "ref_id": "EHR:obs.BMI"
+      },
+      "SBP": {
+        "value": 118,
+        "unit": "mmHg",
+        "ref_id": "EHR:obs.SBP"
+      }
+    },
+    "medications": [
+      {
+        "name": "Methotrexate 15mg Weekly",
+        "rxnorm": "105585",
+        "weeks_duration": 40,
+        "status": "active",
+        "ref_id": "EHR:meds.105585"
+      },
+      {
+        "name": "Folic Acid 1mg QD",
+        "rxnorm": "315966",
+        "weeks_duration": 40,
+        "status": "active",
+        "ref_id": "EHR:meds.315966"
+      }
+    ],
+    "clinical_notes": "44yo female with active moderate-to-severe RA despite 40 weeks of Methotrexate. CRP elevated at 14.2 mg/L. QuantiFERON-TB Gold borderline/indeterminate; needs infectious disease sign-off to rule out latent tuberculosis.",
+    "note_ref_id": "EHR:notes.N-907"
+  },
+  {
+    "patient_id": "SYN-PT-1008",
+    "name": "Robert Thornton (Synthetic)",
+    "age": 66,
+    "sex": "Male",
+    "race": "White",
+    "conditions": [
+      {
+        "code": "J44.9",
+        "system": "ICD-10",
+        "display": "Chronic obstructive pulmonary disease, unspecified",
+        "onset": "2021-09-10"
+      }
+    ],
+    "labs": {
+      "Eosinophils": {
+        "value": 380.0,
+        "unit": "cells/uL",
+        "loinc": "711-2",
+        "date": "2026-10-11",
+        "ref_id": "EHR:labs.711-2"
+      },
+      "Hemoglobin": {
+        "value": 14.5,
+        "unit": "g/dL",
+        "loinc": "718-7",
+        "date": "2026-10-11",
+        "ref_id": "EHR:labs.718-7"
+      }
+    },
+    "observations": {
+      "FEV1_pct": {
+        "value": 52,
+        "unit": "%",
+        "ref_id": "EHR:obs.FEV1_pct"
+      },
+      "BMI": {
+        "value": 26.8,
+        "unit": "kg/m2",
+        "ref_id": "EHR:obs.BMI"
+      },
+      "SBP": {
+        "value": 134,
+        "unit": "mmHg",
+        "ref_id": "EHR:obs.SBP"
+      }
+    },
+    "medications": [
+      {
+        "name": "Tiotropium / Olodaterol Inhaler",
+        "rxnorm": "1657981",
+        "weeks_duration": 60,
+        "status": "active",
+        "ref_id": "EHR:meds.1657981"
+      }
+    ],
+    "clinical_notes": "66yo former smoker with GOLD Grade 2 COPD, post-bronchodilator FEV1 52% predicted, eosinophils 380 cells/uL. No history of asthma. No cor pulmonale or right ventricular failure.",
+    "note_ref_id": "EHR:notes.N-908"
+  },
+  {
+    "patient_id": "SYN-PT-1009",
+    "name": "David Kim (Synthetic)",
+    "age": 38,
+    "sex": "Male",
+    "race": "Asian",
+    "conditions": [
+      {
+        "code": "K50.90",
+        "system": "ICD-10",
+        "display": "Crohn's disease, unspecified, without complications",
+        "onset": "2022-03-19"
+      }
+    ],
+    "labs": {
+      "CRP": {
+        "value": 18.5,
+        "unit": "mg/L",
+        "loinc": "1988-5",
+        "date": "2026-10-16",
+        "ref_id": "EHR:labs.1988-5"
+      },
+      "Hemoglobin": {
+        "value": 11.2,
+        "unit": "g/dL",
+        "loinc": "718-7",
+        "date": "2026-10-16",
+        "ref_id": "EHR:labs.718-7"
+      },
+      "ALT": {
+        "value": 34.0,
+        "unit": "U/L",
+        "loinc": "1742-6",
+        "date": "2026-10-16",
+        "ref_id": "EHR:labs.1742-6"
+      }
+    },
+    "observations": {
+      "BMI": {
+        "value": 22.4,
+        "unit": "kg/m2",
+        "ref_id": "EHR:obs.BMI"
+      },
+      "SBP": {
+        "value": 116,
+        "unit": "mmHg",
+        "ref_id": "EHR:obs.SBP"
+      }
+    },
+    "medications": [
+      {
+        "name": "Budesonide 9mg QD",
+        "rxnorm": "308850",
+        "weeks_duration": 8,
+        "status": "active",
+        "ref_id": "EHR:meds.308850"
+      }
+    ],
+    "clinical_notes": "38yo male with ileocolonic Crohn's disease flare, CRP 18.5 mg/L, Hgb 11.2 g/dL. Prior ileocecal resection in 2023 with primary anastomosis; no ostomy or ileoanal pouch.",
+    "note_ref_id": "EHR:notes.N-909"
+  },
+  {
+    "patient_id": "SYN-PT-1010",
+    "name": "Claire Sterling (Synthetic)",
+    "age": 41,
+    "sex": "Female",
+    "race": "White",
+    "conditions": [
+      {
+        "code": "N02.8",
+        "system": "ICD-10",
+        "display": "Recurrent and persistent hematuria with primary IgA nephropathy",
+        "onset": "2024-01-22"
+      }
+    ],
+    "labs": {
+      "eGFR": {
+        "value": 58.0,
+        "unit": "mL/min/1.73m2",
+        "loinc": "33914-3",
+        "date": "2026-10-17",
+        "ref_id": "EHR:labs.33914-3"
+      },
+      "Potassium": {
+        "value": 4.3,
+        "unit": "mmol/L",
+        "loinc": "2823-3",
+        "date": "2026-10-17",
+        "ref_id": "EHR:labs.2823-3"
+      },
+      "Hemoglobin": {
+        "value": 12.9,
+        "unit": "g/dL",
+        "loinc": "718-7",
+        "date": "2026-10-17",
+        "ref_id": "EHR:labs.718-7"
+      }
+    },
+    "observations": {
+      "SBP": {
+        "value": 120,
+        "unit": "mmHg",
+        "ref_id": "EHR:obs.SBP"
+      },
+      "BMI": {
+        "value": 24.1,
+        "unit": "kg/m2",
+        "ref_id": "EHR:obs.BMI"
+      }
+    },
+    "medications": [
+      {
+        "name": "Losartan 100mg QD",
+        "rxnorm": "979480",
+        "weeks_duration": 32,
+        "status": "active",
+        "ref_id": "EHR:meds.979480"
+      }
+    ],
+    "clinical_notes": "41yo female with biopsy-proven primary IgA nephropathy, persistent proteinuria 1.4 g/day despite maximum tolerated Losartan 100mg daily for 32 weeks. Native kidneys, no kidney transplant.",
+    "note_ref_id": "EHR:notes.N-910"
+  },
+  {
+    "patient_id": "SYN-PT-1011",
+    "name": "Gregory Houseman (Synthetic)",
+    "age": 59,
+    "sex": "Male",
+    "race": "White",
+    "conditions": [
+      {
+        "code": "E11.9",
+        "system": "ICD-10",
+        "display": "Type 2 diabetes mellitus without complications",
+        "onset": "2017-05-20"
+      },
+      {
+        "code": "E10.10",
+        "system": "ICD-10",
+        "display": "History of diabetic ketoacidosis",
+        "onset": "2021-11-02"
+      }
+    ],
+    "labs": {
+      "HbA1c": {
+        "value": 11.2,
+        "unit": "%",
+        "loinc": "4548-4",
+        "date": "2026-10-10",
+        "ref_id": "EHR:labs.4548-4"
+      },
+      "eGFR": {
+        "value": 42.0,
+        "unit": "mL/min/1.73m2",
+        "loinc": "33914-3",
+        "date": "2026-10-10",
+        "ref_id": "EHR:labs.33914-3"
+      },
+      "ALT": {
+        "value": 145.0,
+        "unit": "U/L",
+        "loinc": "1742-6",
+        "date": "2026-10-10",
+        "ref_id": "EHR:labs.1742-6"
+      }
+    },
+    "observations": {
+      "BMI": {
+        "value": 34.0,
+        "unit": "kg/m2",
+        "ref_id": "EHR:obs.BMI"
+      },
+      "SBP": {
+        "value": 148,
+        "unit": "mmHg",
+        "ref_id": "EHR:obs.SBP"
+      }
+    },
+    "medications": [
+      {
+        "name": "Metformin 1000mg BID",
+        "rxnorm": "861004",
+        "weeks_duration": 8,
+        "status": "active",
+        "ref_id": "EHR:meds.861004"
+      }
+    ],
+    "clinical_notes": "59yo male with poorly controlled diabetes (HbA1c 11.2%), elevated transaminases (ALT 145 U/L), and prior episode of DKA in 2021. Recently restarted Metformin 8 weeks ago.",
+    "note_ref_id": "EHR:notes.N-911"
+  },
+  {
+    "patient_id": "SYN-PT-1012",
+    "name": "Nadia Al-Mansoor (Synthetic)",
+    "age": 61,
+    "sex": "Female",
+    "race": "Middle Eastern",
+    "conditions": [
+      {
+        "code": "C34.90",
+        "system": "ICD-10",
+        "display": "Malignant neoplasm of bronchus or lung (Stage IV NSCLC)",
+        "onset": "2025-12-01"
+      }
+    ],
+    "labs": {
+      "ANC": {
+        "value": 1.8,
+        "unit": "10^3/uL",
+        "loinc": "751-8",
+        "date": "2026-10-15",
+        "ref_id": "EHR:labs.751-8"
+      },
+      "Creatinine": {
+        "value": 0.9,
+        "unit": "mg/dL",
+        "loinc": "2160-0",
+        "date": "2026-10-15",
+        "ref_id": "EHR:labs.2160-0"
+      }
+    },
+    "observations": {
+      "ECOG": {
+        "value": 2,
+        "unit": "score",
+        "ref_id": "EHR:obs.ECOG"
+      },
+      "BMI": {
+        "value": 21.5,
+        "unit": "kg/m2",
+        "ref_id": "EHR:obs.BMI"
+      }
+    },
+    "medications": [
+      {
+        "name": "Pembrolizumab 200mg IV q3w",
+        "rxnorm": "1547545",
+        "weeks_duration": 18,
+        "status": "completed",
+        "ref_id": "EHR:meds.1547545"
+      }
+    ],
+    "clinical_notes": "61yo female with Stage IV NSCLC who progressed after 6 cycles of first-line Pembrolizumab. Current ECOG performance status is 2. Negative brain MRI.",
+    "note_ref_id": "EHR:notes.N-912"
+  },
+  {
+    "patient_id": "SYN-PT-1013",
+    "name": "Carlos Rivera (Synthetic)",
+    "age": 58,
+    "sex": "Male",
+    "race": "Hispanic",
+    "conditions": [
+      {
+        "code": "I25.10",
+        "system": "ICD-10",
+        "display": "Atherosclerotic heart disease of native coronary artery (Post-MI)",
+        "onset": "2025-11-10"
+      },
+      {
+        "code": "I10",
+        "system": "ICD-10",
+        "display": "Essential hypertension",
+        "onset": "2019-06-01"
+      }
+    ],
+    "labs": {
+      "eGFR": {
+        "value": 64.0,
+        "unit": "mL/min/1.73m2",
+        "loinc": "33914-3",
+        "date": "2026-10-19",
+        "ref_id": "EHR:labs.33914-3"
+      },
+      "Potassium": {
+        "value": 4.2,
+        "unit": "mmol/L",
+        "loinc": "2823-3",
+        "date": "2026-10-19",
+        "ref_id": "EHR:labs.2823-3"
+      },
+      "Hemoglobin": {
+        "value": 14.1,
+        "unit": "g/dL",
+        "loinc": "718-7",
+        "date": "2026-10-19",
+        "ref_id": "EHR:labs.718-7"
+      }
+    },
+    "observations": {
+      "LVEF": {
+        "value": 38,
+        "unit": "%",
+        "ref_id": "EHR:obs.LVEF"
+      },
+      "SBP": {
+        "value": 118,
+        "unit": "mmHg",
+        "ref_id": "EHR:obs.SBP"
+      },
+      "BMI": {
+        "value": 27.6,
+        "unit": "kg/m2",
+        "ref_id": "EHR:obs.BMI"
+      }
+    },
+    "medications": [
+      {
+        "name": "Carvedilol 25mg BID",
+        "rxnorm": "200031",
+        "weeks_duration": 44,
+        "status": "active",
+        "ref_id": "EHR:meds.200031"
+      },
+      {
+        "name": "Atorvastatin 80mg QD",
+        "rxnorm": "259255",
+        "weeks_duration": 44,
+        "status": "active",
+        "ref_id": "EHR:meds.259255"
+      }
+    ],
+    "clinical_notes": "58yo male with ischemic cardiomyopathy post anterior STEMI, LVEF 38%, eGFR 64. No history of Type 1 or Type 2 diabetes. Hemodynamically stable (SBP 118 mmHg).",
+    "note_ref_id": "EHR:notes.N-913"
+  },
+  {
+    "patient_id": "SYN-PT-1014",
+    "name": "Liam O'Connor (Synthetic)",
+    "age": 52,
+    "sex": "Male",
+    "race": "White",
+    "conditions": [
+      {
+        "code": "C43.9",
+        "system": "ICD-10",
+        "display": "Malignant melanoma of skin, Stage IIIC",
+        "onset": "2026-04-12"
+      }
+    ],
+    "labs": {
+      "Hemoglobin": {
+        "value": 13.4,
+        "unit": "g/dL",
+        "loinc": "718-7",
+        "date": "2026-10-22",
+        "ref_id": "EHR:labs.718-7"
+      },
+      "ALT": {
+        "value": 29.0,
+        "unit": "U/L",
+        "loinc": "1742-6",
+        "date": "2026-10-22",
+        "ref_id": "EHR:labs.1742-6"
+      },
+      "Platelets": {
+        "value": 245.0,
+        "unit": "10^3/uL",
+        "loinc": "777-3",
+        "date": "2026-10-22",
+        "ref_id": "EHR:labs.777-3"
+      }
+    },
+    "observations": {
+      "ECOG": {
+        "value": 0,
+        "unit": "score",
+        "ref_id": "EHR:obs.ECOG"
+      },
+      "SBP": {
+        "value": 126,
+        "unit": "mmHg",
+        "ref_id": "EHR:obs.SBP"
+      },
+      "BMI": {
+        "value": 25.4,
+        "unit": "kg/m2",
+        "ref_id": "EHR:obs.BMI"
+      }
+    },
+    "medications": [
+      {
+        "name": "Cholecalciferol 2000 IU QD",
+        "rxnorm": "317184",
+        "weeks_duration": 52,
+        "status": "active",
+        "ref_id": "EHR:meds.317184"
+      }
+    ],
+    "clinical_notes": "52yo male with unresectable Stage IIIC cutaneous melanoma, ECOG 0. Mild childhood psoriasis resolved; no autoimmune disease requiring systemic immunosuppression. No history of myocarditis.",
+    "note_ref_id": "EHR:notes.N-914"
+  },
+  {
+    "patient_id": "SYN-PT-1015",
+    "name": "Amara Okafor (Synthetic)",
+    "age": 34,
+    "sex": "Female",
+    "race": "Black or African American",
+    "conditions": [
+      {
+        "code": "M32.9",
+        "system": "ICD-10",
+        "display": "Systemic lupus erythematosus, unspecified",
+        "onset": "2022-08-19"
+      }
+    ],
+    "labs": {
+      "eGFR": {
+        "value": 74.0,
+        "unit": "mL/min/1.73m2",
+        "loinc": "33914-3",
+        "date": "2026-10-20",
+        "ref_id": "EHR:labs.33914-3"
+      },
+      "Platelets": {
+        "value": 165.0,
+        "unit": "10^3/uL",
+        "loinc": "777-3",
+        "date": "2026-10-20",
+        "ref_id": "EHR:labs.777-3"
+      },
+      "Hemoglobin": {
+        "value": 11.9,
+        "unit": "g/dL",
+        "loinc": "718-7",
+        "date": "2026-10-20",
+        "ref_id": "EHR:labs.718-7"
+      }
+    },
+    "observations": {
+      "SBP": {
+        "value": 114,
+        "unit": "mmHg",
+        "ref_id": "EHR:obs.SBP"
+      },
+      "BMI": {
+        "value": 23.1,
+        "unit": "kg/m2",
+        "ref_id": "EHR:obs.BMI"
+      }
+    },
+    "medications": [
+      {
+        "name": "Hydroxychloroquine 200mg BID",
+        "rxnorm": "310965",
+        "weeks_duration": 80,
+        "status": "active",
+        "ref_id": "EHR:meds.310965"
+      }
+    ],
+    "clinical_notes": "34yo female with mucocutaneous and musculoskeletal SLE on stable Hydroxychloroquine for 80 weeks. Urine protein-to-creatinine ratio 0.35 g/g; unclear if mild class II lupus nephritis requires renal biopsy exclusion check.",
+    "note_ref_id": "EHR:notes.N-915"
+  }
+]

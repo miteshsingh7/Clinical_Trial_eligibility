@@ -1,0 +1,1378 @@
+[
+  {
+    "nct_id": "NCT05489210",
+    "title": "Phase III Study of Dapagliflozin in Type 2 Diabetes Mellitus With Early Stage CKD",
+    "TherapeuticArea": "Endocrinology / Nephrology",
+    "phase": "Phase 3",
+    "status": "Recruiting",
+    "sponsor": "AstraZeneca / Clinical Research Network",
+    "protocol_text": "Inclusion Criteria:\n1. Adults aged 40 to 75 years inclusive at screening.\n2. Documented diagnosis of Type 2 Diabetes Mellitus (ICD-10 E11.9 or SNOMED 44054006).\n3. HbA1c between 7.0% and 10.5% inclusive within the last 90 days.\n4. Estimated GFR (eGFR) between 30 and 60 mL/min/1.73m2.\n5. Stable background therapy with Metformin for at least 12 weeks prior to screening.\nExclusion Criteria:\n1. History of Type 1 Diabetes Mellitus or Diabetic Ketoacidosis.\n2. Severe hepatic impairment or ALT > 3x ULN (> 120 U/L).\n3. Active malignancy requiring systemic therapy within the past 2 years.",
+    "ground_truth_criteria": [
+      {
+        "id": "C1",
+        "type": "inclusion",
+        "category": "demographics",
+        "field": "age",
+        "operator": "between",
+        "value": [
+          40,
+          75
+        ],
+        "unit": "years",
+        "text": "Adults aged 40 to 75 years inclusive at screening",
+        "ambiguous": false
+      },
+      {
+        "id": "C2",
+        "type": "inclusion",
+        "category": "condition",
+        "field": "icd10",
+        "operator": "in",
+        "value": [
+          "E11.9",
+          "E11.22"
+        ],
+        "unit": null,
+        "text": "Documented diagnosis of Type 2 Diabetes Mellitus (ICD-10 E11.9)",
+        "ambiguous": false
+      },
+      {
+        "id": "C3",
+        "type": "inclusion",
+        "category": "lab",
+        "field": "HbA1c",
+        "loinc": "4548-4",
+        "operator": "between",
+        "value": [
+          7.0,
+          10.5
+        ],
+        "unit": "%",
+        "text": "HbA1c between 7.0% and 10.5% inclusive",
+        "ambiguous": false
+      },
+      {
+        "id": "C4",
+        "type": "inclusion",
+        "category": "lab",
+        "field": "eGFR",
+        "loinc": "33914-3",
+        "operator": "between",
+        "value": [
+          30,
+          60
+        ],
+        "unit": "mL/min/1.73m2",
+        "text": "Estimated GFR (eGFR) between 30 and 60 mL/min/1.73m2",
+        "ambiguous": false
+      },
+      {
+        "id": "C5",
+        "type": "inclusion",
+        "category": "medication",
+        "field": "med_name",
+        "operator": "contains",
+        "value": "Metformin",
+        "min_weeks": 12,
+        "unit": "weeks",
+        "text": "Stable background therapy with Metformin for >= 12 weeks",
+        "ambiguous": false
+      },
+      {
+        "id": "C6",
+        "type": "exclusion",
+        "category": "condition",
+        "field": "icd10",
+        "operator": "in",
+        "value": [
+          "E10.9",
+          "E10.10"
+        ],
+        "unit": null,
+        "text": "History of Type 1 Diabetes Mellitus or Diabetic Ketoacidosis",
+        "ambiguous": false
+      },
+      {
+        "id": "C7",
+        "type": "exclusion",
+        "category": "lab",
+        "field": "ALT",
+        "loinc": "1742-6",
+        "operator": ">",
+        "value": 120,
+        "unit": "U/L",
+        "text": "Severe hepatic impairment or ALT > 120 U/L",
+        "ambiguous": false
+      },
+      {
+        "id": "C8",
+        "type": "exclusion",
+        "category": "clinical_note",
+        "field": "notes",
+        "operator": "ambiguous_check",
+        "value": "active malignancy",
+        "unit": null,
+        "text": "Active malignancy requiring systemic therapy within the past 2 years",
+        "ambiguous": true
+      }
+    ]
+  },
+  {
+    "nct_id": "NCT05811042",
+    "title": "KEYNOTE-Lung09: Pembrolizumab Plus Carboplatin in Stage IIIB/IV Non-Small Cell Lung Cancer",
+    "TherapeuticArea": "Oncology",
+    "phase": "Phase 3",
+    "status": "Recruiting",
+    "sponsor": "Merck Sharp & Dohme",
+    "protocol_text": "Inclusion Criteria:\n1. Age >= 18 years.\n2. Histologically confirmed Stage IIIB or IV Non-Small Cell Lung Cancer (ICD-10 C34.90).\n3. ECOG Performance Status of 0 or 1.\n4. Absolute Neutrophil Count (ANC) >= 1.5 x10^3/uL.\n5. Serum Creatinine <= 1.5 mg/dL.\nExclusion Criteria:\n1. Prior treatment with any anti-PD-1, anti-PD-L1, or anti-CTLA-4 agent (e.g., Pembrolizumab, Nivolumab).\n2. Untreated or symptomatic central nervous system (CNS) metastases.",
+    "ground_truth_criteria": [
+      {
+        "id": "C1",
+        "type": "inclusion",
+        "category": "demographics",
+        "field": "age",
+        "operator": ">=",
+        "value": 18,
+        "unit": "years",
+        "text": "Age >= 18 years",
+        "ambiguous": false
+      },
+      {
+        "id": "C2",
+        "type": "inclusion",
+        "category": "condition",
+        "field": "icd10",
+        "operator": "in",
+        "value": [
+          "C34.90",
+          "C34.11"
+        ],
+        "unit": null,
+        "text": "Confirmed Stage IIIB/IV Non-Small Cell Lung Cancer (ICD-10 C34.90)",
+        "ambiguous": false
+      },
+      {
+        "id": "C3",
+        "type": "inclusion",
+        "category": "observation",
+        "field": "ECOG",
+        "operator": "in",
+        "value": [
+          0,
+          1
+        ],
+        "unit": "score",
+        "text": "ECOG Performance Status of 0 or 1",
+        "ambiguous": false
+      },
+      {
+        "id": "C4",
+        "type": "inclusion",
+        "category": "lab",
+        "field": "ANC",
+        "loinc": "751-8",
+        "operator": ">=",
+        "value": 1.5,
+        "unit": "10^3/uL",
+        "text": "Absolute Neutrophil Count (ANC) >= 1.5 x10^3/uL",
+        "ambiguous": false
+      },
+      {
+        "id": "C5",
+        "type": "inclusion",
+        "category": "lab",
+        "field": "Creatinine",
+        "loinc": "2160-0",
+        "operator": "<=",
+        "value": 1.5,
+        "unit": "mg/dL",
+        "text": "Serum Creatinine <= 1.5 mg/dL",
+        "ambiguous": false
+      },
+      {
+        "id": "C6",
+        "type": "exclusion",
+        "category": "medication",
+        "field": "med_name",
+        "operator": "in",
+        "value": [
+          "Pembrolizumab",
+          "Nivolumab",
+          "Atezolizumab"
+        ],
+        "unit": null,
+        "text": "Prior treatment with anti-PD-1/PD-L1 agent",
+        "ambiguous": false
+      },
+      {
+        "id": "C7",
+        "type": "exclusion",
+        "category": "clinical_note",
+        "field": "notes",
+        "operator": "ambiguous_check",
+        "value": "CNS metastases",
+        "unit": null,
+        "text": "Untreated or symptomatic CNS metastases",
+        "ambiguous": true
+      }
+    ]
+  },
+  {
+    "nct_id": "NCT05920318",
+    "title": "PARAGON-HF2: Sacubitril/Valsartan in Heart Failure With Preserved Ejection Fraction (HFpEF)",
+    "TherapeuticArea": "Cardiology",
+    "phase": "Phase 3",
+    "status": "Recruiting",
+    "sponsor": "Novartis Pharmaceuticals",
+    "protocol_text": "Inclusion Criteria:\n1. Patients aged >= 50 years.\n2. Diagnosis of Heart Failure (ICD-10 I50.9 or I50.30).\n3. Left Ventricular Ejection Fraction (LVEF) >= 45%.\n4. NT-proBNP >= 300 pg/mL.\n5. Stable loop diuretic therapy for at least 4 weeks.\nExclusion Criteria:\n1. Serum Potassium > 5.2 mmol/L at screening.\n2. Systolic Blood Pressure (SBP) < 100 mmHg or > 180 mmHg.\n3. History of angioedema.",
+    "ground_truth_criteria": [
+      {
+        "id": "C1",
+        "type": "inclusion",
+        "category": "demographics",
+        "field": "age",
+        "operator": ">=",
+        "value": 50,
+        "unit": "years",
+        "text": "Patients aged >= 50 years",
+        "ambiguous": false
+      },
+      {
+        "id": "C2",
+        "type": "inclusion",
+        "category": "condition",
+        "field": "icd10",
+        "operator": "in",
+        "value": [
+          "I50.9",
+          "I50.30",
+          "I50.32"
+        ],
+        "unit": null,
+        "text": "Diagnosis of Heart Failure (ICD-10 I50.9 or I50.30)",
+        "ambiguous": false
+      },
+      {
+        "id": "C3",
+        "type": "inclusion",
+        "category": "observation",
+        "field": "LVEF",
+        "operator": ">=",
+        "value": 45,
+        "unit": "%",
+        "text": "Left Ventricular Ejection Fraction (LVEF) >= 45%",
+        "ambiguous": false
+      },
+      {
+        "id": "C4",
+        "type": "inclusion",
+        "category": "lab",
+        "field": "NT-proBNP",
+        "loinc": "33762-6",
+        "operator": ">=",
+        "value": 300,
+        "unit": "pg/mL",
+        "text": "NT-proBNP >= 300 pg/mL",
+        "ambiguous": false
+      },
+      {
+        "id": "C5",
+        "type": "inclusion",
+        "category": "medication",
+        "field": "med_name",
+        "operator": "contains",
+        "value": "Furosemide",
+        "min_weeks": 4,
+        "unit": "weeks",
+        "text": "Stable loop diuretic therapy (e.g. Furosemide) for >= 4 weeks",
+        "ambiguous": false
+      },
+      {
+        "id": "C6",
+        "type": "exclusion",
+        "category": "lab",
+        "field": "Potassium",
+        "loinc": "2823-3",
+        "operator": ">",
+        "value": 5.2,
+        "unit": "mmol/L",
+        "text": "Serum Potassium > 5.2 mmol/L at screening",
+        "ambiguous": false
+      },
+      {
+        "id": "C7",
+        "type": "exclusion",
+        "category": "observation",
+        "field": "SBP",
+        "operator": "outside",
+        "value": [
+          100,
+          180
+        ],
+        "unit": "mmHg",
+        "text": "Systolic Blood Pressure < 100 mmHg or > 180 mmHg",
+        "ambiguous": false
+      },
+      {
+        "id": "C8",
+        "type": "exclusion",
+        "category": "clinical_note",
+        "field": "notes",
+        "operator": "ambiguous_check",
+        "value": "angioedema",
+        "unit": null,
+        "text": "History of angioedema",
+        "ambiguous": true
+      }
+    ]
+  },
+  {
+    "nct_id": "NCT06014451",
+    "title": "SURMOUNT-MASH: Tirzepatide in Adults With Non-Cirrhotic MASH and Liver Fibrosis",
+    "TherapeuticArea": "Hepatology / Metabolic",
+    "phase": "Phase 2",
+    "status": "Recruiting",
+    "sponsor": "Eli Lilly and Company",
+    "protocol_text": "Inclusion Criteria:\n1. Age 18 to 75 years.\n2. Diagnosis of NASH / MASH (ICD-10 K75.81).\n3. Body Mass Index (BMI) >= 27.0 kg/m2.\n4. ALT between 35 and 200 U/L.\nExclusion Criteria:\n1. Platelet count < 140 x10^3/uL.\n2. HbA1c > 9.5%.\n3. Prior use of GLP-1 receptor agonist (Semaglutide, Liraglutide) within 90 days.",
+    "ground_truth_criteria": [
+      {
+        "id": "C1",
+        "type": "inclusion",
+        "category": "demographics",
+        "field": "age",
+        "operator": "between",
+        "value": [
+          18,
+          75
+        ],
+        "unit": "years",
+        "text": "Age 18 to 75 years",
+        "ambiguous": false
+      },
+      {
+        "id": "C2",
+        "type": "inclusion",
+        "category": "condition",
+        "field": "icd10",
+        "operator": "in",
+        "value": [
+          "K75.81"
+        ],
+        "unit": null,
+        "text": "Diagnosis of NASH / MASH (ICD-10 K75.81)",
+        "ambiguous": false
+      },
+      {
+        "id": "C3",
+        "type": "inclusion",
+        "category": "observation",
+        "field": "BMI",
+        "operator": ">=",
+        "value": 27.0,
+        "unit": "kg/m2",
+        "text": "Body Mass Index (BMI) >= 27.0 kg/m2",
+        "ambiguous": false
+      },
+      {
+        "id": "C4",
+        "type": "inclusion",
+        "category": "lab",
+        "field": "ALT",
+        "loinc": "1742-6",
+        "operator": "between",
+        "value": [
+          35,
+          200
+        ],
+        "unit": "U/L",
+        "text": "ALT between 35 and 200 U/L",
+        "ambiguous": false
+      },
+      {
+        "id": "C5",
+        "type": "exclusion",
+        "category": "lab",
+        "field": "Platelets",
+        "loinc": "777-3",
+        "operator": "<",
+        "value": 140,
+        "unit": "10^3/uL",
+        "text": "Platelet count < 140 x10^3/uL",
+        "ambiguous": false
+      },
+      {
+        "id": "C6",
+        "type": "exclusion",
+        "category": "lab",
+        "field": "HbA1c",
+        "loinc": "4548-4",
+        "operator": ">",
+        "value": 9.5,
+        "unit": "%",
+        "text": "HbA1c > 9.5%",
+        "ambiguous": false
+      },
+      {
+        "id": "C7",
+        "type": "exclusion",
+        "category": "medication",
+        "field": "med_name",
+        "operator": "in",
+        "value": [
+          "Semaglutide",
+          "Liraglutide"
+        ],
+        "unit": null,
+        "text": "Prior use of GLP-1 receptor agonist within 90 days",
+        "ambiguous": false
+      }
+    ]
+  },
+  {
+    "nct_id": "NCT06102930",
+    "title": "CLARITY-AD2: Lecanemab in Early Alzheimer's Disease With Mild Cognitive Impairment",
+    "TherapeuticArea": "Neurology",
+    "phase": "Phase 3",
+    "status": "Recruiting",
+    "sponsor": "Eisai Inc.",
+    "protocol_text": "Inclusion Criteria:\n1. Age 50 to 85 years inclusive.\n2. Diagnosis of Mild Cognitive Impairment or Early Alzheimer's Disease (ICD-10 G30.9 or G31.84).\n3. MMSE score between 22 and 28 inclusive.\n4. Stable Acetylcholinesterase Inhibitor (Donepezil) optional or stable >= 8 weeks.\nExclusion Criteria:\n1. Any contraindication to brain MRI (pacemaker or metallic implants).\n2. Anticoagulant therapy (Apixaban, Warfarin, Rivaroxaban) due to ARIA-H hemorrhage risk.",
+    "ground_truth_criteria": [
+      {
+        "id": "C1",
+        "type": "inclusion",
+        "category": "demographics",
+        "field": "age",
+        "operator": "between",
+        "value": [
+          50,
+          85
+        ],
+        "unit": "years",
+        "text": "Age 50 to 85 years inclusive",
+        "ambiguous": false
+      },
+      {
+        "id": "C2",
+        "type": "inclusion",
+        "category": "condition",
+        "field": "icd10",
+        "operator": "in",
+        "value": [
+          "G30.9",
+          "G31.84"
+        ],
+        "unit": null,
+        "text": "Diagnosis of Early Alzheimer's or MCI (ICD-10 G30.9 or G31.84)",
+        "ambiguous": false
+      },
+      {
+        "id": "C3",
+        "type": "inclusion",
+        "category": "observation",
+        "field": "MMSE",
+        "operator": "between",
+        "value": [
+          22,
+          28
+        ],
+        "unit": "score",
+        "text": "MMSE score between 22 and 28 inclusive",
+        "ambiguous": false
+      },
+      {
+        "id": "C4",
+        "type": "exclusion",
+        "category": "clinical_note",
+        "field": "notes",
+        "operator": "ambiguous_check",
+        "value": "pacemaker or MRI contraindication",
+        "unit": null,
+        "text": "Contraindication to brain MRI (pacemaker or metallic implants)",
+        "ambiguous": true
+      },
+      {
+        "id": "C5",
+        "type": "exclusion",
+        "category": "medication",
+        "field": "med_name",
+        "operator": "in",
+        "value": [
+          "Apixaban",
+          "Warfarin",
+          "Rivaroxaban"
+        ],
+        "unit": null,
+        "text": "Concurrent anticoagulant therapy (Apixaban, Warfarin, Rivaroxaban)",
+        "ambiguous": false
+      }
+    ]
+  },
+  {
+    "nct_id": "NCT06188904",
+    "title": "DESTINY-Breast11: Trastuzumab Deruxtecan in HER2-Low Metastatic Breast Cancer",
+    "TherapeuticArea": "Oncology",
+    "phase": "Phase 3",
+    "status": "Recruiting",
+    "sponsor": "Daiichi Sankyo / AstraZeneca",
+    "protocol_text": "Inclusion Criteria:\n1. Female or Male patients aged >= 18 years.\n2. Confirmed Breast Neoplasm (ICD-10 C50.919).\n3. ECOG Performance Status 0 or 1.\n4. Left Ventricular Ejection Fraction (LVEF) >= 50%.\n5. Hemoglobin >= 9.0 g/dL.\nExclusion Criteria:\n1. History of non-infectious Interstitial Lung Disease (ILD) or pneumonitis.\n2. Total Bilirubin > 1.5 mg/dL.",
+    "ground_truth_criteria": [
+      {
+        "id": "C1",
+        "type": "inclusion",
+        "category": "demographics",
+        "field": "age",
+        "operator": ">=",
+        "value": 18,
+        "unit": "years",
+        "text": "Age >= 18 years",
+        "ambiguous": false
+      },
+      {
+        "id": "C2",
+        "type": "inclusion",
+        "category": "condition",
+        "field": "icd10",
+        "operator": "in",
+        "value": [
+          "C50.919",
+          "C50.911"
+        ],
+        "unit": null,
+        "text": "Confirmed Breast Neoplasm (ICD-10 C50.919)",
+        "ambiguous": false
+      },
+      {
+        "id": "C3",
+        "type": "inclusion",
+        "category": "observation",
+        "field": "ECOG",
+        "operator": "in",
+        "value": [
+          0,
+          1
+        ],
+        "unit": "score",
+        "text": "ECOG Performance Status 0 or 1",
+        "ambiguous": false
+      },
+      {
+        "id": "C4",
+        "type": "inclusion",
+        "category": "observation",
+        "field": "LVEF",
+        "operator": ">=",
+        "value": 50,
+        "unit": "%",
+        "text": "Left Ventricular Ejection Fraction (LVEF) >= 50%",
+        "ambiguous": false
+      },
+      {
+        "id": "C5",
+        "type": "inclusion",
+        "category": "lab",
+        "field": "Hemoglobin",
+        "loinc": "718-7",
+        "operator": ">=",
+        "value": 9.0,
+        "unit": "g/dL",
+        "text": "Hemoglobin >= 9.0 g/dL",
+        "ambiguous": false
+      },
+      {
+        "id": "C6",
+        "type": "exclusion",
+        "category": "clinical_note",
+        "field": "notes",
+        "operator": "ambiguous_check",
+        "value": "interstitial lung disease",
+        "unit": null,
+        "text": "History of non-infectious Interstitial Lung Disease (ILD) or pneumonitis",
+        "ambiguous": true
+      },
+      {
+        "id": "C7",
+        "type": "exclusion",
+        "category": "lab",
+        "field": "Bilirubin",
+        "loinc": "1975-2",
+        "operator": ">",
+        "value": 1.5,
+        "unit": "mg/dL",
+        "text": "Total Bilirubin > 1.5 mg/dL",
+        "ambiguous": false
+      }
+    ]
+  },
+  {
+    "nct_id": "NCT06210488",
+    "title": "UP-RA04: Upadacitinib vs Adalimumab in Moderate-to-Severe Rheumatoid Arthritis",
+    "TherapeuticArea": "Rheumatology / Immunology",
+    "phase": "Phase 3",
+    "status": "Recruiting",
+    "sponsor": "AbbVie",
+    "protocol_text": "Inclusion Criteria:\n1. Age 18 to 70 years.\n2. Diagnosis of Rheumatoid Arthritis (ICD-10 M06.9).\n3. C-Reactive Protein (CRP) >= 5.0 mg/L.\n4. Stable Methotrexate therapy for at least 12 weeks.\nExclusion Criteria:\n1. Absolute Neutrophil Count (ANC) < 1.2 x10^3/uL.\n2. History of Herpes Zoster or latent Tuberculosis without prophylaxis.",
+    "ground_truth_criteria": [
+      {
+        "id": "C1",
+        "type": "inclusion",
+        "category": "demographics",
+        "field": "age",
+        "operator": "between",
+        "value": [
+          18,
+          70
+        ],
+        "unit": "years",
+        "text": "Age 18 to 70 years",
+        "ambiguous": false
+      },
+      {
+        "id": "C2",
+        "type": "inclusion",
+        "category": "condition",
+        "field": "icd10",
+        "operator": "in",
+        "value": [
+          "M06.9",
+          "M05.79"
+        ],
+        "unit": null,
+        "text": "Diagnosis of Rheumatoid Arthritis (ICD-10 M06.9)",
+        "ambiguous": false
+      },
+      {
+        "id": "C3",
+        "type": "inclusion",
+        "category": "lab",
+        "field": "CRP",
+        "loinc": "1988-5",
+        "operator": ">=",
+        "value": 5.0,
+        "unit": "mg/L",
+        "text": "C-Reactive Protein (CRP) >= 5.0 mg/L",
+        "ambiguous": false
+      },
+      {
+        "id": "C4",
+        "type": "inclusion",
+        "category": "medication",
+        "field": "med_name",
+        "operator": "contains",
+        "value": "Methotrexate",
+        "min_weeks": 12,
+        "unit": "weeks",
+        "text": "Stable Methotrexate therapy for >= 12 weeks",
+        "ambiguous": false
+      },
+      {
+        "id": "C5",
+        "type": "exclusion",
+        "category": "lab",
+        "field": "ANC",
+        "loinc": "751-8",
+        "operator": "<",
+        "value": 1.2,
+        "unit": "10^3/uL",
+        "text": "Absolute Neutrophil Count (ANC) < 1.2 x10^3/uL",
+        "ambiguous": false
+      },
+      {
+        "id": "C6",
+        "type": "exclusion",
+        "category": "clinical_note",
+        "field": "notes",
+        "operator": "ambiguous_check",
+        "value": "latent tuberculosis",
+        "unit": null,
+        "text": "History of Herpes Zoster or latent Tuberculosis without prophylaxis",
+        "ambiguous": true
+      }
+    ]
+  },
+  {
+    "nct_id": "NCT06259112",
+    "title": "DUPIL-COPD: Dupilumab in Moderate-to-Severe COPD With Type 2 Inflammation",
+    "TherapeuticArea": "Pulmonology",
+    "phase": "Phase 3",
+    "status": "Recruiting",
+    "sponsor": "Sanofi / Regeneron",
+    "protocol_text": "Inclusion Criteria:\n1. Age 40 to 80 years.\n2. Diagnosis of Chronic Obstructive Pulmonary Disease (ICD-10 J44.9).\n3. Blood Eosinophil count >= 300 cells/uL.\n4. Post-bronchodilator FEV1 between 30% and 70% predicted.\nExclusion Criteria:\n1. Current diagnosis of Asthma (ICD-10 J45.909).\n2. Cor pulmonale or right ventricular failure.",
+    "ground_truth_criteria": [
+      {
+        "id": "C1",
+        "type": "inclusion",
+        "category": "demographics",
+        "field": "age",
+        "operator": "between",
+        "value": [
+          40,
+          80
+        ],
+        "unit": "years",
+        "text": "Age 40 to 80 years",
+        "ambiguous": false
+      },
+      {
+        "id": "C2",
+        "type": "inclusion",
+        "category": "condition",
+        "field": "icd10",
+        "operator": "in",
+        "value": [
+          "J44.9",
+          "J44.1"
+        ],
+        "unit": null,
+        "text": "Diagnosis of COPD (ICD-10 J44.9)",
+        "ambiguous": false
+      },
+      {
+        "id": "C3",
+        "type": "inclusion",
+        "category": "lab",
+        "field": "Eosinophils",
+        "loinc": "711-2",
+        "operator": ">=",
+        "value": 300,
+        "unit": "cells/uL",
+        "text": "Blood Eosinophil count >= 300 cells/uL",
+        "ambiguous": false
+      },
+      {
+        "id": "C4",
+        "type": "inclusion",
+        "category": "observation",
+        "field": "FEV1_pct",
+        "operator": "between",
+        "value": [
+          30,
+          70
+        ],
+        "unit": "%",
+        "text": "Post-bronchodilator FEV1 between 30% and 70% predicted",
+        "ambiguous": false
+      },
+      {
+        "id": "C5",
+        "type": "exclusion",
+        "category": "condition",
+        "field": "icd10",
+        "operator": "in",
+        "value": [
+          "J45.909"
+        ],
+        "unit": null,
+        "text": "Current diagnosis of Asthma (ICD-10 J45.909)",
+        "ambiguous": false
+      },
+      {
+        "id": "C6",
+        "type": "exclusion",
+        "category": "clinical_note",
+        "field": "notes",
+        "operator": "ambiguous_check",
+        "value": "cor pulmonale",
+        "unit": null,
+        "text": "Cor pulmonale or right ventricular failure",
+        "ambiguous": true
+      }
+    ]
+  },
+  {
+    "nct_id": "NCT06301195",
+    "title": "OCEANIC-AF: Asundexian vs Apixaban in Atrial Fibrillation at Risk for Stroke",
+    "TherapeuticArea": "Cardiology",
+    "phase": "Phase 3",
+    "status": "Recruiting",
+    "sponsor": "Bayer",
+    "protocol_text": "Inclusion Criteria:\n1. Age >= 45 years.\n2. Documented Atrial Fibrillation (ICD-10 I48.91).\n3. eGFR >= 30 mL/min/1.73m2.\n4. Hemoglobin >= 10.0 g/dL.\nExclusion Criteria:\n1. Mechanical prosthetic heart valve.\n2. Platelet count < 100 x10^3/uL.",
+    "ground_truth_criteria": [
+      {
+        "id": "C1",
+        "type": "inclusion",
+        "category": "demographics",
+        "field": "age",
+        "operator": ">=",
+        "value": 45,
+        "unit": "years",
+        "text": "Age >= 45 years",
+        "ambiguous": false
+      },
+      {
+        "id": "C2",
+        "type": "inclusion",
+        "category": "condition",
+        "field": "icd10",
+        "operator": "in",
+        "value": [
+          "I48.91",
+          "I48.0"
+        ],
+        "unit": null,
+        "text": "Documented Atrial Fibrillation (ICD-10 I48.91)",
+        "ambiguous": false
+      },
+      {
+        "id": "C3",
+        "type": "inclusion",
+        "category": "lab",
+        "field": "eGFR",
+        "loinc": "33914-3",
+        "operator": ">=",
+        "value": 30,
+        "unit": "mL/min/1.73m2",
+        "text": "eGFR >= 30 mL/min/1.73m2",
+        "ambiguous": false
+      },
+      {
+        "id": "C4",
+        "type": "inclusion",
+        "category": "lab",
+        "field": "Hemoglobin",
+        "loinc": "718-7",
+        "operator": ">=",
+        "value": 10.0,
+        "unit": "g/dL",
+        "text": "Hemoglobin >= 10.0 g/dL",
+        "ambiguous": false
+      },
+      {
+        "id": "C5",
+        "type": "exclusion",
+        "category": "clinical_note",
+        "field": "notes",
+        "operator": "ambiguous_check",
+        "value": "mechanical valve",
+        "unit": null,
+        "text": "Mechanical prosthetic heart valve",
+        "ambiguous": true
+      },
+      {
+        "id": "C6",
+        "type": "exclusion",
+        "category": "lab",
+        "field": "Platelets",
+        "loinc": "777-3",
+        "operator": "<",
+        "value": 100,
+        "unit": "10^3/uL",
+        "text": "Platelet count < 100 x10^3/uL",
+        "ambiguous": false
+      }
+    ]
+  },
+  {
+    "nct_id": "NCT06344821",
+    "title": "RISANKI-CD: Risankizumab Subcutaneous Maintenance in Crohn's Disease",
+    "TherapeuticArea": "Gastroenterology",
+    "phase": "Phase 3",
+    "status": "Recruiting",
+    "sponsor": "AbbVie",
+    "protocol_text": "Inclusion Criteria:\n1. Age 18 to 75 years.\n2. Confirmed Crohn's Disease (ICD-10 K50.90).\n3. C-Reactive Protein (CRP) >= 5.0 mg/L.\n4. Hemoglobin >= 8.5 g/dL.\nExclusion Criteria:\n1. Ostomy or ileoanal pouch.\n2. ALT > 120 U/L.",
+    "ground_truth_criteria": [
+      {
+        "id": "C1",
+        "type": "inclusion",
+        "category": "demographics",
+        "field": "age",
+        "operator": "between",
+        "value": [
+          18,
+          75
+        ],
+        "unit": "years",
+        "text": "Age 18 to 75 years",
+        "ambiguous": false
+      },
+      {
+        "id": "C2",
+        "type": "inclusion",
+        "category": "condition",
+        "field": "icd10",
+        "operator": "in",
+        "value": [
+          "K50.90",
+          "K50.00"
+        ],
+        "unit": null,
+        "text": "Confirmed Crohn's Disease (ICD-10 K50.90)",
+        "ambiguous": false
+      },
+      {
+        "id": "C3",
+        "type": "inclusion",
+        "category": "lab",
+        "field": "CRP",
+        "loinc": "1988-5",
+        "operator": ">=",
+        "value": 5.0,
+        "unit": "mg/L",
+        "text": "C-Reactive Protein (CRP) >= 5.0 mg/L",
+        "ambiguous": false
+      },
+      {
+        "id": "C4",
+        "type": "inclusion",
+        "category": "lab",
+        "field": "Hemoglobin",
+        "loinc": "718-7",
+        "operator": ">=",
+        "value": 8.5,
+        "unit": "g/dL",
+        "text": "Hemoglobin >= 8.5 g/dL",
+        "ambiguous": false
+      },
+      {
+        "id": "C5",
+        "type": "exclusion",
+        "category": "clinical_note",
+        "field": "notes",
+        "operator": "ambiguous_check",
+        "value": "ostomy",
+        "unit": null,
+        "text": "Ostomy or ileoanal pouch",
+        "ambiguous": true
+      },
+      {
+        "id": "C6",
+        "type": "exclusion",
+        "category": "lab",
+        "field": "ALT",
+        "loinc": "1742-6",
+        "operator": ">",
+        "value": 120,
+        "unit": "U/L",
+        "text": "ALT > 120 U/L",
+        "ambiguous": false
+      }
+    ]
+  },
+  {
+    "nct_id": "NCT06399102",
+    "title": "NEPHRO-IgA: Sparsentan in Primary IgA Nephropathy With Persistent Proteinuria",
+    "TherapeuticArea": "Nephrology",
+    "phase": "Phase 3",
+    "status": "Recruiting",
+    "sponsor": "Travere Therapeutics",
+    "protocol_text": "Inclusion Criteria:\n1. Age >= 18 years.\n2. Biopsy-proven IgA Nephropathy or Chronic Glomerulonephritis (ICD-10 N02.8).\n3. eGFR >= 30 mL/min/1.73m2.\n4. Stable ACEi or ARB therapy (Lisinopril or Losartan) for >= 12 weeks.\nExclusion Criteria:\n1. Serum Potassium > 5.5 mmol/L.\n2. History of Kidney Transplant.",
+    "ground_truth_criteria": [
+      {
+        "id": "C1",
+        "type": "inclusion",
+        "category": "demographics",
+        "field": "age",
+        "operator": ">=",
+        "value": 18,
+        "unit": "years",
+        "text": "Age >= 18 years",
+        "ambiguous": false
+      },
+      {
+        "id": "C2",
+        "type": "inclusion",
+        "category": "condition",
+        "field": "icd10",
+        "operator": "in",
+        "value": [
+          "N02.8"
+        ],
+        "unit": null,
+        "text": "Biopsy-proven IgA Nephropathy (ICD-10 N02.8)",
+        "ambiguous": false
+      },
+      {
+        "id": "C3",
+        "type": "inclusion",
+        "category": "lab",
+        "field": "eGFR",
+        "loinc": "33914-3",
+        "operator": ">=",
+        "value": 30,
+        "unit": "mL/min/1.73m2",
+        "text": "eGFR >= 30 mL/min/1.73m2",
+        "ambiguous": false
+      },
+      {
+        "id": "C4",
+        "type": "inclusion",
+        "category": "medication",
+        "field": "med_name",
+        "operator": "in",
+        "value": [
+          "Lisinopril",
+          "Losartan"
+        ],
+        "min_weeks": 12,
+        "unit": "weeks",
+        "text": "Stable ACEi or ARB therapy (Lisinopril or Losartan) for >= 12 weeks",
+        "ambiguous": false
+      },
+      {
+        "id": "C5",
+        "type": "exclusion",
+        "category": "lab",
+        "field": "Potassium",
+        "loinc": "2823-3",
+        "operator": ">",
+        "value": 5.5,
+        "unit": "mmol/L",
+        "text": "Serum Potassium > 5.5 mmol/L",
+        "ambiguous": false
+      },
+      {
+        "id": "C6",
+        "type": "exclusion",
+        "category": "clinical_note",
+        "field": "notes",
+        "operator": "ambiguous_check",
+        "value": "kidney transplant",
+        "unit": null,
+        "text": "History of Kidney Transplant",
+        "ambiguous": true
+      }
+    ]
+  },
+  {
+    "nct_id": "NCT06421877",
+    "title": "EVOKE-CKD: Semaglutide Renal Outcomes in Type 2 Diabetes and Stage 3b/4 CKD",
+    "TherapeuticArea": "Endocrinology / Nephrology",
+    "phase": "Phase 3",
+    "status": "Recruiting",
+    "sponsor": "Novo Nordisk",
+    "protocol_text": "Inclusion Criteria:\n1. Age >= 35 years.\n2. Diagnosis of Type 2 Diabetes Mellitus (ICD-10 E11.9).\n3. HbA1c between 6.8% and 10.0%.\n4. eGFR between 25 and 55 mL/min/1.73m2.\nExclusion Criteria:\n1. Personal or family history of Medullary Thyroid Carcinoma or MEN2.\n2. History of chronic or acute pancreatitis.",
+    "ground_truth_criteria": [
+      {
+        "id": "C1",
+        "type": "inclusion",
+        "category": "demographics",
+        "field": "age",
+        "operator": ">=",
+        "value": 35,
+        "unit": "years",
+        "text": "Age >= 35 years",
+        "ambiguous": false
+      },
+      {
+        "id": "C2",
+        "type": "inclusion",
+        "category": "condition",
+        "field": "icd10",
+        "operator": "in",
+        "value": [
+          "E11.9",
+          "E11.22"
+        ],
+        "unit": null,
+        "text": "Diagnosis of Type 2 Diabetes Mellitus (ICD-10 E11.9)",
+        "ambiguous": false
+      },
+      {
+        "id": "C3",
+        "type": "inclusion",
+        "category": "lab",
+        "field": "HbA1c",
+        "loinc": "4548-4",
+        "operator": "between",
+        "value": [
+          6.8,
+          10.0
+        ],
+        "unit": "%",
+        "text": "HbA1c between 6.8% and 10.0%",
+        "ambiguous": false
+      },
+      {
+        "id": "C4",
+        "type": "inclusion",
+        "category": "lab",
+        "field": "eGFR",
+        "loinc": "33914-3",
+        "operator": "between",
+        "value": [
+          25,
+          55
+        ],
+        "unit": "mL/min/1.73m2",
+        "text": "eGFR between 25 and 55 mL/min/1.73m2",
+        "ambiguous": false
+      },
+      {
+        "id": "C5",
+        "type": "exclusion",
+        "category": "clinical_note",
+        "field": "notes",
+        "operator": "ambiguous_check",
+        "value": "medullary thyroid",
+        "unit": null,
+        "text": "Personal or family history of Medullary Thyroid Carcinoma or MEN2",
+        "ambiguous": true
+      },
+      {
+        "id": "C6",
+        "type": "exclusion",
+        "category": "clinical_note",
+        "field": "notes",
+        "operator": "ambiguous_check",
+        "value": "pancreatitis",
+        "unit": null,
+        "text": "History of chronic or acute pancreatitis",
+        "ambiguous": true
+      }
+    ]
+  },
+  {
+    "nct_id": "NCT06488210",
+    "title": "DAPA-MI2: Dapagliflozin in Acute Myocardial Infarction With Reduced Left Ventricular Function",
+    "TherapeuticArea": "Cardiology",
+    "phase": "Phase 3",
+    "status": "Recruiting",
+    "sponsor": "AstraZeneca",
+    "protocol_text": "Inclusion Criteria:\n1. Age 30 to 80 years inclusive.\n2. Documented Acute or Prior Myocardial Infarction or Ischemic Heart Disease (ICD-10 I25.10 or I21.9).\n3. Left Ventricular Ejection Fraction (LVEF) <= 45%.\n4. eGFR >= 30 mL/min/1.73m2.\nExclusion Criteria:\n1. History of Type 1 Diabetes Mellitus (ICD-10 E10.9).\n2. Systolic Blood Pressure (SBP) < 95 mmHg.",
+    "ground_truth_criteria": [
+      {
+        "id": "C1",
+        "type": "inclusion",
+        "category": "demographics",
+        "field": "age",
+        "operator": "between",
+        "value": [
+          30,
+          80
+        ],
+        "unit": "years",
+        "text": "Age 30 to 80 years inclusive",
+        "ambiguous": false
+      },
+      {
+        "id": "C2",
+        "type": "inclusion",
+        "category": "condition",
+        "field": "icd10",
+        "operator": "in",
+        "value": [
+          "I25.10",
+          "I21.9"
+        ],
+        "unit": null,
+        "text": "Documented Ischemic Heart Disease or Myocardial Infarction (ICD-10 I25.10 or I21.9)",
+        "ambiguous": false
+      },
+      {
+        "id": "C3",
+        "type": "inclusion",
+        "category": "observation",
+        "field": "LVEF",
+        "operator": "<=",
+        "value": 45,
+        "unit": "%",
+        "text": "Left Ventricular Ejection Fraction (LVEF) <= 45%",
+        "ambiguous": false
+      },
+      {
+        "id": "C4",
+        "type": "inclusion",
+        "category": "lab",
+        "field": "eGFR",
+        "loinc": "33914-3",
+        "operator": ">=",
+        "value": 30,
+        "unit": "mL/min/1.73m2",
+        "text": "eGFR >= 30 mL/min/1.73m2",
+        "ambiguous": false
+      },
+      {
+        "id": "C5",
+        "type": "exclusion",
+        "category": "condition",
+        "field": "icd10",
+        "operator": "in",
+        "value": [
+          "E10.9"
+        ],
+        "unit": null,
+        "text": "History of Type 1 Diabetes Mellitus (ICD-10 E10.9)",
+        "ambiguous": false
+      },
+      {
+        "id": "C6",
+        "type": "exclusion",
+        "category": "observation",
+        "field": "SBP",
+        "operator": "<",
+        "value": 95,
+        "unit": "mmHg",
+        "text": "Systolic Blood Pressure (SBP) < 95 mmHg",
+        "ambiguous": false
+      }
+    ]
+  },
+  {
+    "nct_id": "NCT06510944",
+    "title": "CHECKMATE-Mel14: Nivolumab Plus Relatlimab in Unresectable Stage III/IV Melanoma",
+    "TherapeuticArea": "Oncology",
+    "phase": "Phase 3",
+    "status": "Recruiting",
+    "sponsor": "Bristol-Myers Squibb",
+    "protocol_text": "Inclusion Criteria:\n1. Age >= 18 years.\n2. Histologically confirmed Malignant Melanoma of Skin (ICD-10 C43.9).\n3. ECOG Performance Status 0 or 1.\n4. Hemoglobin >= 9.0 g/dL.\nExclusion Criteria:\n1. Active autoimmune disease requiring systemic immunosuppression.\n2. History of myocarditis or troponin elevation.",
+    "ground_truth_criteria": [
+      {
+        "id": "C1",
+        "type": "inclusion",
+        "category": "demographics",
+        "field": "age",
+        "operator": ">=",
+        "value": 18,
+        "unit": "years",
+        "text": "Age >= 18 years",
+        "ambiguous": false
+      },
+      {
+        "id": "C2",
+        "type": "inclusion",
+        "category": "condition",
+        "field": "icd10",
+        "operator": "in",
+        "value": [
+          "C43.9"
+        ],
+        "unit": null,
+        "text": "Confirmed Malignant Melanoma (ICD-10 C43.9)",
+        "ambiguous": false
+      },
+      {
+        "id": "C3",
+        "type": "inclusion",
+        "category": "observation",
+        "field": "ECOG",
+        "operator": "in",
+        "value": [
+          0,
+          1
+        ],
+        "unit": "score",
+        "text": "ECOG Performance Status 0 or 1",
+        "ambiguous": false
+      },
+      {
+        "id": "C4",
+        "type": "inclusion",
+        "category": "lab",
+        "field": "Hemoglobin",
+        "loinc": "718-7",
+        "operator": ">=",
+        "value": 9.0,
+        "unit": "g/dL",
+        "text": "Hemoglobin >= 9.0 g/dL",
+        "ambiguous": false
+      },
+      {
+        "id": "C5",
+        "type": "exclusion",
+        "category": "clinical_note",
+        "field": "notes",
+        "operator": "ambiguous_check",
+        "value": "autoimmune disease",
+        "unit": null,
+        "text": "Active autoimmune disease requiring systemic immunosuppression",
+        "ambiguous": true
+      },
+      {
+        "id": "C6",
+        "type": "exclusion",
+        "category": "clinical_note",
+        "field": "notes",
+        "operator": "ambiguous_check",
+        "value": "myocarditis",
+        "unit": null,
+        "text": "History of myocarditis",
+        "ambiguous": true
+      }
+    ]
+  },
+  {
+    "nct_id": "NCT06543201",
+    "title": "TULIP-SLE3: Anifrolumab Subcutaneous Regimen in Active Systemic Lupus Erythematosus",
+    "TherapeuticArea": "Rheumatology / Immunology",
+    "phase": "Phase 3",
+    "status": "Recruiting",
+    "sponsor": "AstraZeneca",
+    "protocol_text": "Inclusion Criteria:\n1. Age 18 to 70 years.\n2. Diagnosis of Systemic Lupus Erythematosus (ICD-10 M32.9).\n3. Stable Hydroxychloroquine therapy for >= 12 weeks.\n4. eGFR >= 40 mL/min/1.73m2.\nExclusion Criteria:\n1. Severe active lupus nephritis requiring cyclophosphamide.\n2. Platelet count < 100 x10^3/uL.",
+    "ground_truth_criteria": [
+      {
+        "id": "C1",
+        "type": "inclusion",
+        "category": "demographics",
+        "field": "age",
+        "operator": "between",
+        "value": [
+          18,
+          70
+        ],
+        "unit": "years",
+        "text": "Age 18 to 70 years",
+        "ambiguous": false
+      },
+      {
+        "id": "C2",
+        "type": "inclusion",
+        "category": "condition",
+        "field": "icd10",
+        "operator": "in",
+        "value": [
+          "M32.9",
+          "M32.10"
+        ],
+        "unit": null,
+        "text": "Diagnosis of Systemic Lupus Erythematosus (ICD-10 M32.9)",
+        "ambiguous": false
+      },
+      {
+        "id": "C3",
+        "type": "inclusion",
+        "category": "medication",
+        "field": "med_name",
+        "operator": "contains",
+        "value": "Hydroxychloroquine",
+        "min_weeks": 12,
+        "unit": "weeks",
+        "text": "Stable Hydroxychloroquine therapy for >= 12 weeks",
+        "ambiguous": false
+      },
+      {
+        "id": "C4",
+        "type": "inclusion",
+        "category": "lab",
+        "field": "eGFR",
+        "loinc": "33914-3",
+        "operator": ">=",
+        "value": 40,
+        "unit": "mL/min/1.73m2",
+        "text": "eGFR >= 40 mL/min/1.73m2",
+        "ambiguous": false
+      },
+      {
+        "id": "C5",
+        "type": "exclusion",
+        "category": "clinical_note",
+        "field": "notes",
+        "operator": "ambiguous_check",
+        "value": "lupus nephritis",
+        "unit": null,
+        "text": "Severe active lupus nephritis requiring cyclophosphamide",
+        "ambiguous": true
+      },
+      {
+        "id": "C6",
+        "type": "exclusion",
+        "category": "lab",
+        "field": "Platelets",
+        "loinc": "777-3",
+        "operator": "<",
+        "value": 100,
+        "unit": "10^3/uL",
+        "text": "Platelet count < 100 x10^3/uL",
+        "ambiguous": false
+      }
+    ]
+  }
+]

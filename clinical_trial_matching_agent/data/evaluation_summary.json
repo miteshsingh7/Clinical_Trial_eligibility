@@ -1,0 +1,19 @@
+{
+  "trials_evaluated": 15,
+  "patients_evaluated": 15,
+  "total_patient_trial_pairs": 225,
+  "total_criterion_evaluations": 1440,
+  "criterion_extraction_accuracy_pct": 100.0,
+  "eligibility_decision_accuracy_pct": 97.92,
+  "hallucination_rate_pct": 0.0,
+  "groundedness_rate_pct": 100.0,
+  "manual_time_per_pair_minutes": 18.5,
+  "agent_assisted_time_per_pair_minutes": 2.4,
+  "coordinator_time_saved_pct": 87.0,
+  "cohort_hours_saved": 60.4,
+  "distribution": {
+    "ELIGIBLE": 9,
+    "PENDING_REVIEW": 6,
+    "INELIGIBLE": 210
+  }
+}
